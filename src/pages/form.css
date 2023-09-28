@@ -1,0 +1,131 @@
+.text-secondry {
+    color: #979797;
+}
+
+.text-danger {
+    color: #A80000 !important;
+    text-decoration: none;
+}
+
+.btn-light, .btn-light:hover {
+    background: #fff !important;
+    box-shadow: none;
+    border: none;
+}
+
+.card {
+    border: none;
+    border-radius: 20px;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.card-header:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: none;
+    padding: 1rem;
+    background-color: #D0F7FA;
+    font-weight: bold;
+}
+
+.form-check-input:checked {
+    background-color: #087B2F;
+    border-color: #087B2F;
+}
+
+.form-control, .form-control:focus {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #C4C4C4;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-bottom: 1px solid #000;
+}
+
+.form-control.question, .form-control.question:focus {
+    border: 1px solid #C4C4C4;
+    padding: 0.8rem;
+}
+
+.form-select {
+    padding: 0.8rem;
+}
+
+.checbox-container {
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.checbox-container:last-child {
+    border: none;
+}
+
+/*--------upload-cover -----------*/
+.upload-cover {
+    position: relative;
+    width: 100%;
+    min-height: 16rem;
+    height: 16rem !important;
+    border-radius: 0;
+    height: 100%;
+    left: 0;
+
+}
+
+.upload-cover .cover-container {
+    width: 100%;
+    min-height: 15rem;
+    height: 15rem;
+    border-radius: 0;
+    border: 1px dashed;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.upload-cover .profile-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    position: absolute;
+    top: 0;
+}
+
+.upload-cover .profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.form-switch .form-check-label {
+    width: 40px;
+}
+
+.upload-cover .overlay {
+    border-radius: 0;
+}
+
+.upload-cover input[type='file'] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    pointer-events: auto;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.upload-cover .icon-container {
+    position: initial;
+    transform: translate(0px, 0px);
+}

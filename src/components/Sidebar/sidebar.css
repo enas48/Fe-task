@@ -3,9 +3,11 @@
     box-shadow: 1px 1px 2px #eee;
     width: 60px;
 }
-.sidebar .nav-item{
+
+.sidebar .nav-item {
     margin-bottom: 1rem;
 }
-.sidebar .icon{
+
+.icon {
     font-size: 24px;
 }

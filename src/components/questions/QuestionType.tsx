@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import { customisedQuestions } from "../model/FormModal";
+import { customisedQuestions } from "../../model/FormModal";
 import uuid from "react-uuid";
-import ParagraphType from "./questions/ParagraphType";
-import YesNoType from "./questions/YesNoType";
-import DropdownType from "./questions/DropdownType";
-import MultipleChoice from "./questions/MultipleChoice";
-import VideoQuestion from "./questions/videoQuestion";
+import ParagraphType from "./ParagraphType";
+import YesNoType from "./YesNoType";
+import DropdownType from "./DropdownType";
+import MultipleChoice from "./MultipleChoice";
+import VideoQuestion from "./videoQuestion";
 
 interface props {
   type: string;

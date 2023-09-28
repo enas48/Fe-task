@@ -3,9 +3,9 @@ import MainLayout from "../components/MainLayout";
 import { Form, Container, Row, Col } from "react-bootstrap";
 
 import "./form.css";
-import UploadCover from "./UploadCover";
-import PersonalInformation from "./PersonalInformation";
-import Profile from "./Profile";
+import UploadCover from "../components/UploadCover";
+import PersonalInformation from "../components/personalInformation/PersonalInformation";
+import Profile from "../components/Profile";
 
 function ApplicationForm() {
   return (

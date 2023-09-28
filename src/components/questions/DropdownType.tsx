@@ -1,7 +1,7 @@
 import React from "react";
 import { Form } from "react-bootstrap";
 import { customisedQuestions } from "../../model/FormModal";
-import Choices from "../Choices";
+import Choices from "./Choices";
 import ButtonContainer from "./ButtonContainer";
 
 interface props {
@@ -16,7 +16,7 @@ interface props {
   editQuestion: () => void;
   formtype: string;
 }
-function MultipleChoice({
+function DropdownType({
   handleInputChange,
   handleCheckboxChange,
   handleChoices,
@@ -57,21 +57,6 @@ function MultipleChoice({
           onChange={handleCheckboxChange}
         />
       </Form.Group>
-      <Form.Group
-        className="mb-3 position-relative"
-        controlId="formBasicusername"
-      >
-        <Form.Label className="fw-bold ">Max choice allowed</Form.Label>
-        <Form.Control
-          className="question"
-          name="maxChoice"
-          value={question.maxChoice}
-          required
-          type="number"
-          placeholder="Enter number of choice allowed here"
-          onChange={handleInputChange}
-        />
-      </Form.Group>
 
       <ButtonContainer
         formtype={formtype}
@@ -83,4 +68,4 @@ function MultipleChoice({
   );
 }
 
-export default MultipleChoice;
+export default DropdownType;

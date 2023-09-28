@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Form, Button } from "react-bootstrap";
-import { customisedQuestions } from "../model/FormModal";
+import { customisedQuestions } from "../../model/FormModal";
 import { BsListUl } from "react-icons/bs";
 import { FiPlus } from "react-icons/fi";
 

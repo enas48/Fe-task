@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Card } from "react-bootstrap";
-import { personalProp, personal, profileProp } from "../model/FormModal";
-import Checkbox from "./Checkbox";
+import { personalProp, personal, profileProp } from "../../model/FormModal";
+import Checkbox from "../Checkbox";
 import Input from "./Input";
-import AddQuestion from "./AddQuestion";
+import AddQuestion from "../AddQuestion";
 
 function PersonalInformation() {
   const [data, setFormData] = useState<personal>({

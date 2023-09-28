@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Form, Button } from "react-bootstrap";
 import { AiOutlinePlus } from "react-icons/ai";
 import { customisedQuestions } from "../model/FormModal";
-import QuestionType from "./QuestionType";
+import QuestionType from "./questions/QuestionType";
 import { MdOutlineEdit } from "react-icons/md";
 
 function AddQuestion() {

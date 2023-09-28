@@ -2,6 +2,9 @@
     height: 100vh;
     box-shadow: 1px 1px 2px #eee;
     width: 60px;
+    position: fixed;
+    background: #fff;
+    z-index: 3;
 }
 
 .sidebar .nav-item {
@@ -10,4 +13,10 @@
 
 .icon {
     font-size: 24px;
+}
+.main-layout{
+    position: relative;
+    left: 60px;
+    width: calc(100vw - 90px);
+    overflow-x: hidden;
 }

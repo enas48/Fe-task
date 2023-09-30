@@ -49,7 +49,7 @@ function PersonalInformation() {
 
   return (
     <Card className="shadow">
-      <Card.Header>Personal personalProprmation</Card.Header>
+      <Card.Header>Personal Information</Card.Header>
       <Card.Body>
         <Input
           handleAddData={handleAddData}
